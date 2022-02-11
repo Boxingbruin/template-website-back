@@ -5,7 +5,13 @@
 npm install
 ```
 
-### Download and host a MongoDB database on port 8080
+### Download MongoDB database and create a db
+```
+mongo
+use exchange_db
+```
+
+### Host a MongoDB database on port 8080
 ```
 mongod
 ```
